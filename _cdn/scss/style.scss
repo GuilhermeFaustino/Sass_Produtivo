@@ -1,2 +1,9 @@
 @import "reset/reset";
+@import "variables";
 @import "fold/header";
+
+  /*
+    Home
+  */
+@import "fold/site";
+@import "fold/footer";

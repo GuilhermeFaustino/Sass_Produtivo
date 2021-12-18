@@ -1,23 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.main_header {
-  width: 100%;
-  background-color: #069;
+* {
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
 }
 
-.main_header_navigation {
-  width: 1080px;
+.main_header {
+  width: 100%;
+  background-color: #3E8EBB;
+}
+.main_header .main_header_navigation {
+  width: 960px;
   margin: 0 auto;
   padding: 10px;
 }
-
-.main_header_navigation a {
+.main_header .main_header_navigation a {
   color: #ffffff;
+  padding: 15px;
+}
+.main_header .main_header_navigation a:hover {
+  color: #F90;
+}
+
+/*
+  Home
+*/
+.main_site {
+  width: 100%;
+  background-color: #ffffff;
+}
+.main_site .main_site_content {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.main_site .main_site_content h1 {
+  text-align: center;
+  font-size: 1.2em;
+  color: #666;
+}
+
+.main_footer {
+  width: 100%;
+  background-color: #3E8EBB;
+}
+.main_footer .main_footer_content {
+  width: 960px;
   padding: 10px;
+  margin: auto;
+}
+.main_footer .main_footer_content p {
+  text-align: center;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
