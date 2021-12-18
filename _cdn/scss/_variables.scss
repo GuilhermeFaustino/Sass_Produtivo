@@ -1,5 +1,22 @@
 $width-content: 960px;
 $backgroud_color: #3E8EBB;
+$button-hover-type: 'lighten';
+$button-hover-amount: 10%;
+
+$color-green: #36BA9B;
+$color-blue: #39AED9;
+$color-yellow: #F5B946;
+$color-red: #D94352;
+
+$theme-colors: () !default;
+$theme-colors: map_merge(
+                (
+                        "green": $color-green,
+                        "blue": $color-blue,
+                        "yellow": $color-yellow,
+                        "red": $color-red
+                ),  $theme-colors
+);
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 *{

@@ -37,6 +37,30 @@
   padding: 6px 12px;
   background-color: #666;
   color: #fff;
+  font-size: 0.875em;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+.btn:hover {
+  background-color: gray;
+}
+
+.btn-green {
+  background-color: #36BA9B;
+}
+
+.btn-blue {
+  background-color: #39AED9;
+}
+
+.btn-yellow {
+  background-color: #F5B946;
+}
+
+.btn-red {
+  background-color: #D94352;
 }
 
 /*
