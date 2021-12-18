@@ -21,8 +21,21 @@
   }
 }
 
+@mixin  button($color){
+  background-color:  #{$color};
+  color:  #ffffff;
+  &:hover {
+    @if button-hover-type == 'ligthen' {
+      background-color: darken($color, $button-hover-amount);
+    } @else {
+      background-color: lighten($color, $button-hover-amount);
+    }
+  }
+
+}
+
 @each $color, $value in  $theme-colors{
     .btn-#{$color} {
-      background-color: $value;
+      @include button($value);
     }
 }

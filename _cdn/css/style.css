@@ -49,18 +49,50 @@
 
 .btn-green {
   background-color: #36BA9B;
+  color: #ffffff;
+}
+.btn-green:hover {
+  background-color: #55ceb1;
 }
 
 .btn-blue {
   background-color: #39AED9;
+  color: #ffffff;
+}
+.btn-blue:hover {
+  background-color: #64c0e1;
 }
 
 .btn-yellow {
   background-color: #F5B946;
+  color: #ffffff;
+}
+.btn-yellow:hover {
+  background-color: #f8cb76;
 }
 
 .btn-red {
   background-color: #D94352;
+  color: #ffffff;
+}
+.btn-red:hover {
+  background-color: #e26d79;
+}
+
+.title-green {
+  color: #36BA9B;
+}
+
+.title-blue {
+  color: #39AED9;
+}
+
+.title-yellow {
+  color: #F5B946;
+}
+
+.title-red {
+  color: #D94352;
 }
 
 /*
